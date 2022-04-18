@@ -10,9 +10,10 @@ simple lookup
 > 🤦‍♂️
 
 more complicated lookup
-> me@debian:~$ emoji woman medium dark light skin vampire
+> me@debian:~$ emoji woman medium light skin vampire
 >
-> 🧛🏼‍♀️
+>🧛🏼‍♀️
+
 
 It doesn't always get things right, but hopefully future updates will allow for globbing or saved preferences.
 

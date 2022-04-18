@@ -14,6 +14,11 @@ more complicated lookup
 >
 >🧛🏼‍♀️
 
+works in scripts
+```shell
+#!/bin/bash
+echo $($HOME/bin/emoji radiactive) waste system
+```
 
 It doesn't always get things right, but hopefully future updates will allow for globbing or saved preferences.
 

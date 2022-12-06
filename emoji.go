@@ -179,7 +179,11 @@ func main() {
 				images := results[dbMap["image"]:]
 				if renderWhichFlag == "1" {
 					// this is the default
-					printImage(scaleImageTo(makeImage(images[0]), xSize, ySize))
+					if len(images) > 0 {
+						printImage(scaleImageTo(makeImage(images[0]), xSize, ySize))
+					} else {
+						fmt.Printf("There are no images to render of %s\n", realDescrip)
+					}
 				} else if renderWhichFlag == "all" {
 				} else {
 					index, _ := strconv.Atoi(renderWhichFlag)

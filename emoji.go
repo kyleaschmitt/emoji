@@ -141,6 +141,10 @@ func main() {
 	setup()
 	xSize = 22
 	ySize = 22
+	if helpFlag {
+		flag.PrintDefaults()
+		os.Exit(0)
+	}
 	if listFlag {
 		for descrip, _ := range db {
 			fmt.Println(descrip)
